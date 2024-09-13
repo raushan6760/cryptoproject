@@ -1,0 +1,83 @@
+/* Container style */
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Heading style */
+.alarmHeader {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input field style */
+.alarmInput {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Button style */
+.alarmButton {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.alarmButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+}
+
+.alarmButton:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* List style */
+.alarmList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.alarmListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.alarmListItemButton {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 15px;
+}
+
+.alarmListItemButton:hover {
+  background-color: #c82333;
+}

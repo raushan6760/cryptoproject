@@ -49,6 +49,9 @@ console.log(currency)
             <Typography variant="h6" onClick={() => navigate("/")} className={classes.title}>
               Crypto Simulator 
             </Typography>
+            <Typography variant="h6" onClick={() => navigate("/alarm")} className={classes.title}>
+              Set Price Notifier
+            </Typography>
             <Select
               variant="outlined"
               value={currency} onChange={(e)=>setCurrency(e.target.value)}
@@ -65,7 +68,7 @@ console.log(currency)
 
             {user ? <Portfolio/> : ""}
             {user? <UserSidebar/>:< AuthModal />}
-
+          
           </Toolbar>
         </Container>
       </AppBar>

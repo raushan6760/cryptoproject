@@ -5,7 +5,7 @@ import Homepage from "./Pages/Homepage";
 import Coinpage from "./Pages/Coinpage";
 import { makeStyles } from "@material-ui/core/styles";
 import Alert from "./Components/Alert";
-
+import Alarm from "./Alarm";
 
 const useStyles = makeStyles(() => ({
   App: {
@@ -28,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage/>} />
           <Route path="/coins/:id" element={<Coinpage />}/>
+          <Route path="/alarm" element={<Alarm />}/>
         </Routes>
       </div>
       <Alert/>
