@@ -15,7 +15,7 @@
 This is a feature-rich cryptocurrency tracker application built using React JS, Material UI, Chart JS, and Firebase. In addition to real-time price tracking and interactive charts, users can buy and sell cryptocurrencies, manage their portfolio, mark favorite coins, and securely log in or sign up using Firebase authentication. 
 
 ## Demo
-You can access a live demo of the updated application (https://crypto-simulator-project.netlify.app/)
+You can access a live demo of the updated application (https://cryptoproject-main.netlify.app/)
 
 ## New Features
 - Firebase Authentication: Users can securely log in or sign up using Firebase authentication.
